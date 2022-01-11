@@ -1,0 +1,11 @@
+#main-card {
+    padding-left: 40px;
+}
+
+#forecast-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}

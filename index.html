@@ -10,12 +10,12 @@
     <title>Weather Dashboard</title>
 </head>
 <body>
-    <div class="jumobtron">
-        <h1>Weather Dashboard</h1>
-        <p>current weather of your city and a 5-day forecast</p>
-        <div class="row">
+    <div class="jumobtron my-5">
+        <h1 class="text-center">Weather Dashboard</h1>
+        <p class="text-center">current weather of your city and a 5-day forecast</p>
+        <div class="row d-flex my-5 px-5">
         <div class="col-4">
-            <form>
+            <form class="d-inline-flex">
                 <label for="city" class="form-label">Search for your City</label>
                 <input type="text" name="city" class="form-control" placeholder="your city...">
                 <button type="submit" id="searchbtn" class="btn btn-primary">Search</button>
@@ -24,9 +24,9 @@
         </div>
         <p></p>
     </div>
-    <div class="col-8">
-        <div class="row" id="main-card"></div>
-        <div class="row" id="forecast-cards"></div>
+    <div>
+        <div id="main-card"></div>
+        <div id="forecast-cards"></div>
     </div>
     </div>
 
